@@ -78,6 +78,17 @@
 }
 
 /* 8. exercice-8 */
+.exercice-8 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: baseline;
+}
+
+.exercice-8 .element-pink{
+  flex-grow: 2;
+  order: 1;
+}
 
 /* 9. exercice-9 */
 
